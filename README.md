@@ -38,20 +38,31 @@ Se proporcionan dos archivos, «disponibles» y «competición». El fichero «d
 3) (0.25 puntos) Hacer un Análisis Exploratorio de Datos (EDA).
 4) Dividir los datos en «train» (los 10 primeros años) y «test» (los 2 últimos). Siguiendo la metodología planteada en la competición, no desordenaremos los datos antes de partir en entrenamiento y test, sino que respetaremos el orden temporal. Importante: los datos de «test» se reservan para la evaluación final en el apartado 8 de la práctica, no se puede utilizar para tomar decisiones durante el resto de puntos de la práctica (es decir, desde los apartados 4 a 7, habrá que evaluar los distintos métodos sin usar dicho conjunto de test).
 5) (1.00 puntos) Métodos básicos: aquí se considerarán los siguientes métodos básicos: KNN, árboles de regresión, regresión lineal. Las métricas de evaluación son RMSE y MAE. Aparte de evaluar las métricas, también se medirá el tiempo que tarda su entrenamiento.
+
   a. Se evaluarán dichos modelos con sus hiperparámetros por omisión.
+
   b. Después, se ajustarán los hiperparámetros más importantes de cada método y se obtendrá su evaluación.
+
   c. Obtener algunas conclusiones, tales como: ¿cuál es el mejor método? ¿Cuál de los métodos básicos de aprendizaje automático es más rápido? ¿Los resultados son mejores     que los regresores triviales/naive/baseline? ¿El ajuste de hiperparámetros mejora con respecto a los valores por omisión? ¿Hay algún equilibrio entre tiempo de ejecución    y mejora de resultados? Etc.
 
 6) (0.75 puntos) ¿Es posible reducir la dimensionalidad del problema? (aquí no tiene por qué utilizarse una técnica estándar, sino algo que se os ocurra para que en los datos haya menos atributos sin empeorar resultados).
 7) (0.75 puntos) Métodos avanzados: SVMs, Random Forests.
+
   a. Se evaluarán dichos modelos con sus hiperparámetros por omisión.
+
   b. Después, se ajustarán los hiperparámetros más importantes de cada método y se obtendrá su evaluación.
+
   c. Interpretar la importancia de los atributos según aquellas técnicas que lo permitan.
+
   d. Conclusiones hasta el momento.
 8) (0.25 puntos) Seleccionar el mejor método, evaluarlo, construir modelo final, hacer predicciones para la competición.
+
   a. Seleccionar el mejor método de los evaluados en los puntos anteriores.
+
   b. Usar la partición de test para evaluar ese mejor método. Esta es una estimación de cómo se desempeñaría el modelo en la competición.
+
   c. Entrenar el modelo final. Guardarlo en un fichero (llamado «modelo_final.pkl»).
+
   d. Utilizar el modelo final para obtener predicciones para el conjunto de datos de la competición (comp). Guardar estas predicciones en un fichero (llamado «predicciones.csv»).
 
 ## SIGNIFICADO DE ATRIBUTOS DE ENTRADA
