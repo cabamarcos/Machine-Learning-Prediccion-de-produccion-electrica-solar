@@ -55,6 +55,7 @@ Se proporcionan dos archivos, «disponibles» y «competición». El fichero «d
   c. Interpretar la importancia de los atributos según aquellas técnicas que lo permitan.
 
   d. Conclusiones hasta el momento.
+
 8) (0.25 puntos) Seleccionar el mejor método, evaluarlo, construir modelo final, hacer predicciones para la competición.
 
   a. Seleccionar el mejor método de los evaluados en los puntos anteriores.
