@@ -1,4 +1,15 @@
 # PREDICCIÓN DE LA PRODUCCIÓN DE ENERGÍA SOLAR (Grupo13-Practica1)
+
+<!-- academic-catalog:start -->
+**UC3M · 3.º curso · Aprendizaje automático**
+
+Comparación de modelos de regresión y ajuste de hiperparámetros para estimar producción solar a partir de predicciones meteorológicas.
+
+**Tecnologías:** Python, scikit-learn, Jupyter.
+
+[Ver todos mis proyectos académicos](https://github.com/cabamarcos/academic-projects)
+<!-- academic-catalog:end -->
+
 ## INTRODUCCIÓN
 El propósito de esta primera práctica es practicar con diferentes métodos de aprendizaje automático y ajuste / optimización de hiperparámetros (HPO). Además, se trata de practicar todo el proceso: determinar el mejor método para un conjunto de datos (selección de modelo, incluido el ajuste de hiperparámetros), estimar el rendimiento futuro del mejor método (evaluación de modelo) y construir el modelo final y usarlo para hacer nuevas predicciones sobre nuevos datos (uso del modelo).
 
